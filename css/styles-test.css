@@ -10,16 +10,7 @@ a {
 ul {
   padding: 0;
   margin: 0;
-}
-
-li {
-  list-style-type: none;
-}
-
-.list {
   list-style: none;
-  padding: 0;
-  margin: 0;
 }
 
 h1,
@@ -34,6 +25,8 @@ p {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .visually-hidden {
@@ -49,15 +42,30 @@ img {
   margin: -1px;
 }
 
-.сhild-element {
+.child-element {
   color: blue;
 }
 
-.сhild-element > li {
-  color: rgb(133, 16, 16);
+.child-element > li {
+  color: red;
 }
 
-.menu > li {
+.menu li {
   border: 1px solid tomato;
   color: darkblue;
+}
+
+.test {
+  color: black;
+}
+
+.child-element {
+}
+.list {
+}
+.test {
+}
+.menu {
+}
+.submenu {
 }
